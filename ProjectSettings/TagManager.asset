@@ -8,6 +8,9 @@ TagManager:
   - Enemy
   - WinCondition
   - UIManager
+  - Tank
+  - Timer
+  - EndScreen
   layers:
   - Default
   - TransparentFX

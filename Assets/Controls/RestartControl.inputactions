@@ -1,0 +1,45 @@
+{
+    "name": "RestartControl",
+    "maps": [
+        {
+            "name": "Restart",
+            "id": "3b854d05-c5e7-407e-aeb7-18887b8d9885",
+            "actions": [
+                {
+                    "name": "RestartInput",
+                    "type": "Button",
+                    "id": "5f03da79-f81a-448c-98ce-ede3b1cb8301",
+                    "expectedControlType": "",
+                    "processors": "",
+                    "interactions": "Press(behavior=2)",
+                    "initialStateCheck": false
+                }
+            ],
+            "bindings": [
+                {
+                    "name": "",
+                    "id": "dfb6f3eb-c5f4-40f2-a2d1-2a857d900128",
+                    "path": "<Keyboard>/r",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "RestartInput",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "e0573ba5-f423-4374-88a8-a92c09a1dae7",
+                    "path": "<Gamepad>/start",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "RestartInput",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                }
+            ]
+        }
+    ],
+    "controlSchemes": []
+}

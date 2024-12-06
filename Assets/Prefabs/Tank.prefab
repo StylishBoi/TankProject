@@ -190,8 +190,8 @@ BoxCollider:
   m_ProvidesContacts: 0
   m_Enabled: 1
   serializedVersion: 3
-  m_Size: {x: 2.118913, y: 1.6106101, z: 3.2147205}
-  m_Center: {x: 0.013449073, y: 0.78957015, z: 0.40234888}
+  m_Size: {x: 2.118913, y: 1.6106101, z: 2.4476576}
+  m_Center: {x: 0.013449073, y: 0.78957015, z: 0.018817365}
 --- !u!114 &4507065015123884012
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -337,7 +337,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 9fb4057b11dfc1045b1154f628e01782, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  _turnSpeed: 2
+  turnSpeed: 1
 --- !u!4 &1261309698952360181 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: -8679921383154817045, guid: 1d72d58847b7cc641967821169a6581d, type: 3}
